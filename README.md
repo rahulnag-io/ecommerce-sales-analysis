@@ -18,7 +18,8 @@ Uncover actionable business insights from raw transactional data by:
 ```
 ecommerce-sales-analysis/
 │
-├── data/                           # Original CSVs from Kaggle (not committed)
+├── data/
+│   └── raw/                        # Original CSVs from Kaggle (not committed)
 │
 ├── sql/
 │   ├── schema.sql                  # Table definitions (orders, payments, products, etc.)
@@ -35,12 +36,11 @@ ecommerce-sales-analysis/
 ├── outputs/
 │   ├── charts/                     # PNG exports of all visualizations
 │   │   └── monthly_revenue_trend.png
-│   │   
+│   │
 │   └── report.pdf                  # Executive insight report (3 key findings + recommendations)
 │
 └── README.md
 ```
-
 ---
 
 ## 🔍 Key Analyses
